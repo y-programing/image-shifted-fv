@@ -11,6 +11,7 @@
 .l-header__nav {
     display: flex;
     justify-content: space-between;
+    margin: 10px 0;
 }
 
 .l-header__ul {
