@@ -14,28 +14,40 @@
                 <li class="l-header__li">
                     <a href="./index.html">
                         <div class="l-header__img-container">
-                            <img class="l-header__img" src="./img/building-icon.png" alt="ビルのアイコン">
+                            <picture>
+                                <source srcset="./img/building-white-icon.png" media="(max-width: 768px)"/>
+                                <img class="l-header__img" src="./img/building-icon.png" alt="ビルのアイコン">
+                            </picture>
                         </div>ホーム
                     </a>
                 </li>
                 <li class="l-header__li">
                     <a href="#">
                         <div class="l-header__img-container">
-                            <img class="l-header__img" src="./img/stethoscope-icon.png" alt="聴診器のアイコン">
+                            <picture>
+                                <source srcset="./img/stethoscope-white-icon.png" media="(max-width: 768px)"/>
+                                <img class="l-header__img" src="./img/stethoscope-icon.png" alt="聴診器のアイコン">
+                            </picture>
                         </div>診療内容
                     </a>
                 </li>
                 <li class="l-header__li">
                     <a href="#">
                         <div class="l-header__img-container">
-                            <img class="l-header__img" src="./img/hospital-icon.png" alt="病院のアイコン">
+                            <picture>
+                                <source srcset="./img/hospital-white-icon.png" media="(max-width: 768px)"/>
+                                <img class="l-header__img" src="./img/hospital-icon.png" alt="病院のアイコン">
+                            </picture>
                         </div>当院について
                     </a>
                 </li>
                 <li class="l-header__li">
                     <a href="#">
                         <div class="l-header__img-container">
-                            <img class="l-header__img" src="./img/article-icon.png" alt="新着記事のアイコン">
+                            <picture>
+                                <source srcset="./img/article-white-icon.png" media="(max-width: 768px)"/>
+                                <img class="l-header__img" src="./img/article-icon.png" alt="新着記事のアイコン">
+                            </picture>
                         </div>新着情報
                     </a>
                 </li>
@@ -49,6 +61,12 @@
                 </li>
             </ul>
         </nav>
+
+        <div id="c-hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
     </header>
 
     <div class="p-fv">
@@ -60,5 +78,7 @@
             <img class="p-fv_img" src="./img/3448838_s.jpg" alt="">
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
