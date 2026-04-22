@@ -131,7 +131,7 @@
         left: 0;
         width: 250px;
         height: 100%;
-        background: #104188;
+        background: rgba(16, 65, 136, 0.5);
         transform: translateX(-100%);
         transition: transform 0.3s ease;
     }
@@ -141,7 +141,7 @@
         height: 120%;
         z-index: 300;
         position: absolute;
-        background: rgba(16, 65, 136, 1);
+        background: rgba(16, 65, 136, 0.5);
         transform: translateX(0);
     }
 
