@@ -91,9 +91,15 @@
         justify-content: space-between;
     }
 
-    .l-header__ul {
-        display: none;
+     /* .l-header__ul {
+        position: fixed;
         margin-top: -10px;
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+    }  */
+
+    .l-header__contact-phone {
+        display: none;
     }
 
     #c-hamburger {
@@ -125,22 +131,21 @@
         left: 0;
         width: 250px;
         height: 100%;
-        background: #333;
+        background: #104188;
         transform: translateX(-100%);
         transition: transform 0.3s ease;
     }
 
-    /* JSで追加するクラス */
     .l-header__nav.active .l-header__ul {
-    transform: translateX(0);
-    }
-
-    .l-header__nav.active .l-header__ul {
-        display: block;
         width: 50%;
         z-index: 300;
         position: absolute;
         background: rgba(16, 65, 136, 1);
+        transform: translateX(0);
+    }
+
+    .l-header__nav .l-header__ul {
+        display: block;
     }
 
     .l-header__li {
